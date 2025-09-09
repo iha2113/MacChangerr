@@ -1,0 +1,1 @@
+MacChanger.py -i <interface> -s <islem_no> [-m <mac_adres>] [-t <time>]

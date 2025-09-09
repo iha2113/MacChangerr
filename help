@@ -1,1 +1,11 @@
 MacChanger.py -i <interface> -s <islem_no> [-m <mac_adres>] [-t <time>]
+
+Örnekler:
+  python Tools.py -i eth0 -s 1 -t 5
+      -> eth0 arayüzünde 5 saniyede bir random mac değiştirir.
+
+  python Tools.py -i wlan0 -s 2 -m 12:34:56:78:9A:BC
+      -> wlan0 arayüzünde MAC adresini manuel olarak değiştirir.
+
+  python Tools.py -i wlan0 -s 3
+      -> wlan0 arayüzünü orijinal MAC adresine döndürür.
